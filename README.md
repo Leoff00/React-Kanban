@@ -2,7 +2,11 @@
 
 # Screenshot
 
+<<<<<<< HEAD
 <img src="./Screenshot/Screenshot_1.jpg">
+=======
+![Screenshot_1](https://user-images.githubusercontent.com/66839023/120044499-5c7bd480-bfe4-11eb-8e38-6af0f048a838.jpg)
+>>>>>>> 0ff7558a4305503746fc5d5bdfd2b7485862ac1c
 
 # Technologies
 
