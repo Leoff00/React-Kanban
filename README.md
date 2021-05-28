@@ -1,5 +1,15 @@
 <h1 align="center"> Kanban Practice </h1>
 
+# Screenshot
+
+<img src="./Screenshot/Screenshot_1.jpg">
+
+# Technologies
+
+- [React](https://reactjs.org)
+- [Sass](https://sass-lang.com)
+- [PropTypes](https://www.npmjs.com/package/prop-types)
+
 # NOTE
 
 This is a personal project that i thought interesting to implement and test my skill with React and Sass.
@@ -13,6 +23,7 @@ I thought i can help the peoples that don't know how it works and show her the p
 If you want to contribuing with this project make a fork of this project or just clone. To use this project in your machine you'll need to install the dependecies. To install type: <b> npm i or yarn if you are using yarn</b>. After this enter in each <b>DIR</b> in your terminal and type: <b> npm start </b>. The project is running on PORT 3000.
 
 # Learn More
+
 Visit [ReactAPP](https://reactjs.org) documentation to learn more and learn about how to create react apps.
 
 # Social
