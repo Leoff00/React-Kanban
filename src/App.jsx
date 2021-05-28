@@ -1,9 +1,12 @@
-import './App.scss';
+import "./App.scss";
+import Home from "./components/Home/Home";
+import Main from "./components/Main/Main";
 
 function App() {
   return (
     <div className="App">
-      <h1>Hello world</h1>
+      <Home />
+      <Main />
     </div>
   );
 }
