@@ -1,8 +1,8 @@
-.homeContainer {
+.headerContainer {
   width: 99%;
-  height: 100px;
+  height: 90px;
 
-  margin: auto;
+  margin: auto auto;
   border-radius: 10px;
 
   display: flex;
@@ -20,29 +20,28 @@
   }
 
   .titleContainer {
-    transition: 1s;
-
     border-left: 2px solid black;
-    .homeTitle {
+
+    .headerTitle {
       margin-left: 10px;
 
-      align-self: center;
-      font-family: Ubuntu, sans-serif;
       font-weight: 400;
       font-size: 2rem;
+      color: #fff;
     }
 
-    .homeSubTitle {
+    .headerSubTitle {
       margin-left: 10px;
-      align-self: flex-end;
-      font-family: Ubuntu, sans-serif;
+
       font-weight: 300;
       font-size: 1.5rem;
+      color: #fff;
     }
   }
 }
 
-.homeContainer:hover {
-  transition: 1s;
+.headerContainer:hover {
+  transition: 0.6s;
+
   padding-left: 20px;
 }

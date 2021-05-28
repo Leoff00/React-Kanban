@@ -1,0 +1,29 @@
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .footerContainer {
+    position: fixed;
+    bottom: 0;
+
+    width: 50%;
+    height: 40px;
+
+    margin: 10px auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #000;
+
+    border-radius: 15px;
+
+    .footerText {
+      font-size: 1.1rem;
+      font-weight: 300;
+      color: #fff;
+    }
+  }
+}

@@ -1,0 +1,89 @@
+.taskItemInput {
+  width: 100%;
+  height: 20px;
+
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  padding-left: 10px;
+  margin-left: 5px;
+
+  font-size: 0.95rem;
+
+  display: block;
+}
+.taskItemContainer {
+  width: 100%;
+
+  border-radius: 3px;
+  margin-bottom: 8px;
+  padding: 8px 4px;
+
+  box-shadow: 5px 5px 0 rgba(33, 47, 60, 0.5);
+
+  color: #222;
+  font-size: 0.8rem;
+
+  .textInput {
+    margin: 3px;
+
+    cursor: pointer;
+
+    color: #fff;
+    font-size: 1.3rem;
+
+    transition: 0.5s;
+  }
+
+  .textInput:hover {
+    transition: 0.5s;
+
+    color: #000;
+  }
+}
+
+.selectAndButtonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.selectInput {
+  width: 50%;
+  height: 25px;
+
+  font-weight: 400;
+  color: #000;
+  font-size: 1.12rem;
+
+  display: block;
+
+  margin: 2px 5px;
+}
+
+.trashImg {
+  width: 20px;
+  height: 20px;
+
+  margin: auto;
+}
+.deleteButton {
+  margin: 10px auto;
+  outline: none;
+  border: none;
+  padding: 3px;
+  border-radius: 10px;
+
+  color: #000;
+  font-size: 1.05rem;
+
+  cursor: pointer;
+
+  transition: all 0.2s;
+}
+
+.deleteButton:active {
+  transition: all 0.2s;
+  background-color: #c70039;
+  color: #fff;
+}
